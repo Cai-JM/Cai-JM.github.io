@@ -31,4 +31,6 @@ function generateSymptoms() {
             displayCESsymptoms(symp[0]);
         }
     }
+    document.getElementById("genButtonId").disabled=true;
+
 }
