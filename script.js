@@ -27,7 +27,7 @@ function displayCESsymptoms(name) {
 function generateSymptoms() {
     for(var symp of arrSymptoms) {
         if(Math.floor(Math.random() * 100) + 1 <= symp[1]) {
-            alert(symp[1]);
+//             alert(symp[1]);
             displayCESsymptoms(symp[0]);
         }
     }
